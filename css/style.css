@@ -1,1 +1,23 @@
 @charset "UTF-8";
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 100px;
+}
+
+.background-banner {
+    background-image: url('../img/banner-arduino.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
